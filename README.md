@@ -5,17 +5,15 @@
 EncryptionProject est une application conçue pour fournir des outils de chiffrement et de déchiffrement sécurisés et efficaces. Ce projet met en œuvre diverses techniques de cryptographie modernes pour garantir la confidentialité des données.
 
 ## Fonctionnalités
-- Chiffrement symétrique (AES, DES, etc.).
-- Chiffrement asymétrique (RSA, ECC, etc.).
-- Génération de clés sécurisées.
-- Hachage des données (SHA-256, MD5, etc.).
-- Interface utilisateur simple et intuitive (si applicable).
-- Support pour des fichiers et des messages texte.
+- Chiffrement symétrique (vernam, par substitution, Vigenère, DES).
+- Déchiffrement symétrique (vernam, par substitution, Vigenère).
+- Interface utilisateur simple et intuitive.
+
 
 ## Pré-requis
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés :
 - Python 3.8 ou plus récent.
-- Les dépendances listées dans `requirements.txt`.
+
 
 ## Installation
 1. Clonez ce dépôt :
@@ -34,7 +32,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés :
 ## Utilisation
 1. Lancez l'application :
    ```bash
-   python main.py
+   python encryption-app.py
    ```
 2. Suivez les instructions à l'écran pour utiliser les fonctionnalités de chiffrement et de déchiffrement.
 
